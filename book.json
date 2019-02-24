@@ -1,0 +1,34 @@
+{
+    "plugins" : [
+        "anchor-navigation-ex",
+        "expandable-chapters-small",
+        "sitemap-general",
+        "copy-code-button"
+    ],
+    "pluginsConfig": {
+        "sitemap-general": {
+            "prefix": "https://gitbook.ryanhuang.cn/TechNote/_book/"
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "associatedWithSummary": true,
+            "printLog": false,
+            "multipleH1": false,
+            "mode": "float",
+            "showGoTop":true,
+            "float": {
+                "floatIcon": "fa fa-anchor",
+                "showLevelIcon": true,
+                "level1Icon": "fa fa-star",
+                "level3Icon": "fa fa-magic",
+                "level2Icon": "fa fa-hashtag"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        }
+    }
+}
