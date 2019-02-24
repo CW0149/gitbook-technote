@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-## 什么是测试<hr>
+## 什么是测试
 
 ### [为什么需要测试](http://javascript.ruanyifeng.com/tool/testing.html#toc0)
 
@@ -40,7 +40,7 @@ TDD的开发步骤如下：
 - 避免重复测试。
 - 不断提高自己编码水平，写出优雅简洁的代码。
 
-## JavaScript测试<hr>
+## JavaScript测试
 
 测试框架是组织和运行测试用例的工具。
 
@@ -270,7 +270,7 @@ after_script
 
 
 
-## 资料<hr>
+## 资料
 
 * [Test Driven Development: what it is, and what it is not](https://medium.freecodecamp.org/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2)
 * [What’s the difference between Unit Testing, TDD and BDD?](https://codeutopia.net/blog/2015/03/01/unit-testing-tdd-and-bdd/)

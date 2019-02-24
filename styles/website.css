@@ -7,3 +7,7 @@ hr {
   height: 1px !important;
   background-color: #f4f4f5 !important;
 }
+
+h2 {
+	border-bottom: 1px solid #f4f4f5;
+}
