@@ -279,6 +279,6 @@ after_script
 * [What is the difference between a test runner, testing framwork, assertion library, and a testing plugin?](https://amzotti.github.io/testing/2015/03/16/what-is-the-difference-between-a-test-runner-testing-framework-assertion-library-and-a-testing-plugin/)
 * [测试框架 Mocha 实例教程](http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html)
 * [JavaScript 程序测试](http://javascript.ruanyifeng.com/tool/testing.html)
-* [How karma works？](hhttp://karma-runner.github.io/3.0/intro/how-it-works.html)
+* [How karma works？](http://karma-runner.github.io/3.0/intro/how-it-works.html)
 * [Travis CI Node](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
 * [持续集成服务 Travis CI 教程](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
