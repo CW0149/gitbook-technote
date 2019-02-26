@@ -18,6 +18,7 @@
     * [URL编码](tech/urlEncode.md)
     * [作用域](tech/scope.md)
     * [this和对象原型](tech/this-and-object-prototypes.md)
+    * [类型和语法](tech/Types-and-Grammar.md)
 * [文摘摘录](articles/README.md)
     * [杂](articles/mix.md)
     * [2019-02-04](articles/2019-02-04.md)
