@@ -225,15 +225,27 @@ SSRF 形成的原因大都是由于服务端提供了从其他服务器应用获
 
 ### hijack劫持
 
-#### HTTP劫持
+#### 攻击方式
 
-什么是HTTP劫持呢，大多数情况是运营商HTTP劫持，当我们使用HTTP请求请求一个网站页面的时候，网络运营商会在正常的数据流中插入精心设计的网络数据报文，让客户端（通常是浏览器）展示“错误”的数据，通常是一些弹窗，宣传性广告或者直接显示某网站的内容，大家应该都有遇到过。
+**页面劫持**
 
-#### [DNS劫持](https://www.cnblogs.com/coco1s/p/5777260.html)
+iframe 嵌套某页面，骗取用户输入信息。
+
+**HTTP劫持**
+
+大多数情况是运营商HTTP劫持，当我们使用HTTP请求请求一个网站页面的时候，网络运营商会在正常的数据流中插入精心设计的网络数据报文，让客户端（通常是浏览器）展示“错误”的数据，通常是一些弹窗，宣传性广告或者直接显示某网站的内容，大家应该都有遇到过。
+
+**JSON劫持**
+
+JSON是一种轻量级的数据交换格式，而劫持就是对数据进行窃取（或者应该称为打劫、拦截比较合适）。恶意攻击者通过某些特定的手段，将本应该返回给用户的JSON数据进行拦截，转而将数据发送回给恶意攻击者。一般来说进行劫持的JSON数据都是包含敏感信息或者有价值的数据。
+
+**DNS劫持**
 
 DNS 劫持就是通过劫持了 DNS 服务器，通过某些手段取得某域名的解析记录控制权，进而修改此域名的解析结果，导致对该域名的访问由原IP地址转入到修改后的指定IP，其结果就是对特定的网址不能访问或访问的是假网址，从而实现窃取资料或者破坏原有正常服务的目的。
 
-DNS 劫持比之 HTTP 劫持 更加过分，简单说就是我们请求的是 http://www.a.com/index.html ，直接被重定向了 http://www.b.com/index.html。
+#### 防范
+
+- 页面劫持：Window.parent 判断
 
 ## 资料
 
@@ -249,6 +261,8 @@ DNS 劫持比之 HTTP 劫持 更加过分，简单说就是我们请求的是 ht
 * [跨站请求伪造(wikipedia)](https://zh.wikipedia.org/wiki/%E8%B7%A8%E7%AB%99%E8%AF%B7%E6%B1%82%E4%BC%AA%E9%80%A0)
 * [新手指南：DVWA-1.9全级别教程之CSRF](https://www.freebuf.com/articles/web/118352.html)
 * [JavaScript防http劫持与XSS](https://www.cnblogs.com/coco1s/p/5777260.html)
+* [JSON劫持漏洞](https://shiyousan.com/post/635445288414621221)
+* [Json劫持漏洞简介](https://blog.spoock.com/2016/04/12/json-hijacking/)
 
 
 * [hack实践(hackthissite)](https://www.hackthissite.org/)

@@ -217,11 +217,11 @@ class Base {
 	}
 }
 
-// class View extends Base {
-//   constructor(options) {
-//     super(options)
-//   }
-// }
+class View extends Base {
+  constructor(options) {
+    super(options)
+  }
+}
 
 // 以上es5的实现
 function Base() {
@@ -261,20 +261,22 @@ Base.prototype.trigger = function(event, value) {
 	}
 }
 
-// var MyClass = Base.extend({
-//   getVal: function () {
-//     return 'hello world'
-//   }
-// }, {
-//   say: function (word) {
-//     return word
-//   }
-// })
-// var myclass = new MyClass
-// myclass.getVal() // 'hello world'
-// MyClass.say('haha') // 'haha'
-// myclass instanceof MyClass // true
-// myclass instanceof Base // true
+var MyClass = Base.extend({
+  getVal: function () {
+    return 'hello world'
+  }
+}, {
+  say: function (word) {
+    return word
+  }
+})
+
+// 测试
+var myclass = new MyClass
+myclass.getVal() // 'hello world'
+MyClass.say('haha') // 'haha'
+myclass instanceof MyClass // true
+myclass instanceof Base // true
 ```
 
 ## 资料

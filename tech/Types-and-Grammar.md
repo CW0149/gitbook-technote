@@ -587,8 +587,13 @@ function getData() {
  	};
 }
 var { a, b } = getData();
+
+var { a: c, b: d } = { a: 1, b : 2 };
+console.log(c, d) // 1 2
 ```
 { a, b }实际上是{ a: a, b: b }的简化版本，两者均可，只不过{ a, b }更简洁。
+
+es6中支持import引入模块，也支持类似上面写法，但是语法稍有不同：`import { a as c, d as b } from file`。
 
 ### else if和可选代码块
 
