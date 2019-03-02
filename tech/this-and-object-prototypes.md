@@ -68,7 +68,7 @@ new绑定比显式绑定优先级更高。
 
 ### this绑定实践
 
-记住一条：this是在函数调用时发生的绑定。
+this具有默认绑定，函数调用时可能改变this的绑定。
 
 #### 判断this的绑定
 
@@ -102,13 +102,13 @@ if (!Function.prototype.softBind) {
 		// 捕获所有 curried 参数
 		var curried = [].slice.call( arguments, 1 );
 		var bound = function() {
-		return fn.apply(
+			return fn.apply(
 				(!this || this === (window || global)) ?
 				obj : this
 				curried.concat.apply( curried, arguments )
 			);
 		};
-	  bound.prototype = Object.create( fn.prototype );
+		bound.prototype = Object.create( fn.prototype );
 		return bound;
 	};
 }

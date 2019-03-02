@@ -1,9 +1,12 @@
 {
+    "title": "Yan Huang的技术笔记",
+    "language": "zh",
     "plugins" : [
         "anchor-navigation-ex",
         "expandable-chapters-small",
         "sitemap-general",
-        "copy-code-button"
+        "copy-code-button",
+        "github"
     ],
     "pluginsConfig": {
         "sitemap-general": {
@@ -29,6 +32,21 @@
                 "level2Icon": "fa fa-hand-o-right",
                 "level3Icon": "fa fa-hand-o-right"
             }
+        },
+        "github": {
+            "url": "https://github.com/CW0149/gitbook-technote"
+        },
+        "sharing": {
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "weibo": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper"
+            ]
         }
     }
 }

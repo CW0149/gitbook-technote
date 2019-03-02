@@ -23,6 +23,8 @@
 * [你真的了解 gzip 吗？](https://zhuanlan.zhihu.com/p/24764131)
 * [gzip压缩算法](https://blog.csdn.net/hguisu/article/details/7795435)
 * [网站开发人员应该知道的61件事](http://www.ruanyifeng.com/blog/2010/11/61_things_every_web_developer_should_know.html)
+* [WTF is a Source Map](https://www.schneems.com/2017/11/14/wtf-is-a-source-map/)
+* [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 
 
 * [为什么你的n(Node版本管理)命令不起作用](http://hardog.net/2016/02/28/Nodejs/为什么你的n%28Node版本管理%29命令不起作用)
