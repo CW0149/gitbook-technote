@@ -34,3 +34,6 @@
 * [md to html](https://github.com/markedjs/marked)
 * [react-app-rewire](https://github.com/timarney/react-app-rewired#3-flip-the-existing-calls-to-react-scripts-in-npm-scripts)
 * [react-sortable-tree](https://github.com/frontend-collective/react-sortable-tree)
+
+
+* [html-minifier](https://www.npmjs.com/package/html-minifier)

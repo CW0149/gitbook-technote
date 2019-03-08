@@ -288,7 +288,7 @@ Function.prototype是一个空函数，RegExp.prototype是一个“空”的正�
 
 基本类型值的字符串化规则为：null转换为"null"、undefined转换为"undefined"、true转换为"true"。数字的字符串化则遵循通用规则，极小和极大的数字使用指数形式。
 
-对普通对象来说，除非自行定义，否则toString()（Object.prototype.toString()）返回内部属性[[Class]]的值，如"[object Object]"。如果对象有自己的toString()方法，字符串化时就会调用该方法并使用其返回值。String(..)与toString()返回值一致。
+对**普通对象**来说，除非自行定义，否则toString()（Object.prototype.toString()）返回内部属性[[Class]]的值，如"[object Object]"。如果对象有自己的toString()方法，字符串化时就会调用该方法并使用其返回值。String(..)与toString()返回值一致。对**函数**toString()会返回函数代码。
 
 对象强制类型转换为string是通过ToPrimitive抽象操作来完成的。
 

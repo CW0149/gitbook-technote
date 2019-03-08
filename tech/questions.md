@@ -57,3 +57,28 @@ A robots.txt file tells search engine crawlers which pages or files the crawler 
 **资料**
 * [robots.txt示例](https://stackoverflow.com/robots.txt)
 * [Learn about robots.txt files(Google Support)](https://support.google.com/webmasters/answer/6062608?hl=en&ref_topic=6061961)
+
+## path.resolve 与 path.join 的区别
+
+path.join returns a normalized path by merging two paths together. It can return an absolute path, but it doesn't necessarily always do so. path.resolve, on the other hand, will resolve to an absolute path.
+
+```
+path.join('bar', '../../') // ../
+path.resolve('bar', '../../') // /Users
+path.resolve('bar', '/foo') // /foo
+```
+
+**资料**
+
+* [path.join vs path.resolve with \_\_dirname](https://stackoverflow.com/questions/39110801/path-join-vs-path-resolve-with-dirname)
+
+
+## style-loader 与 css-loader 的区别
+
+The CSS loader takes a CSS file and returns the CSS with imports and url(...) resolved via webpack's require functionality.
+
+style-loader takes those styles and creates a `<style>` tag in the page's `<head>` element containing those styles.
+
+**资料**
+
+* [Webpack style-loader vs css-loader](https://stackoverflow.com/questions/34039826/webpack-style-loader-vs-css-loader)

@@ -1,11 +1,12 @@
 # 技术笔记
 
-这里记录了阅读技术书本文档过程中的笔记。
+这里记录我查阅技术资料所产生的笔记。
 
 * [前端体系](frontend/README.md)
     * [自动化集成测试](frontend/test.md)
     * [JS难点](frontend/difficulty.md)
     * [跨域与前端安全](frontend/cross-origin-and-safe.md)
+    * [正则与模版引擎](frontend/regexp-and-template-engine.md)
 * [笔记](tech/README.md)
     * [问题库](tech/questions.md)
     * [正则表达式](tech/regexp.md)
