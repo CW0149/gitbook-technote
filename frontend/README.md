@@ -1,5 +1,7 @@
 # 前端体系
 
+这里记录了前端体系化知识。
+
 * [JS难点](./difficulty.md)
 * [异步流控制与事件](./async-and-events.md)
 * [正则与模版引擎](./regexp-and-template-engine.md)
